@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["es5"],
+    "types": ["node"],
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noImplicitAny": false,
+    "strict": true,
+    "sourceMap": true,
+    "watch": true
+  },
+  "exclude": ["node_modules"],
+  "compileOnSave": true
+}
