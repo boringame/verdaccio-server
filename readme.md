@@ -5,7 +5,7 @@ verdaccio server
 ## Install
 
 ```
-$ npm install -g verdaccio-server
+npm install -g verdaccio-server
 ```
 
 ## Usage
