@@ -5,17 +5,15 @@ verdaccio server
 ## Install
 
 ```
+# $
 npm install -g verdaccio-server
 ```
 
 ## Usage
 
 ```
-verdaccio-server
-```
-
-```
 # $
+verdaccio-server
 verdaccio-server start
 verdaccio-server stop
 verdaccio-server list
@@ -49,10 +47,10 @@ verdaccioServer.serviceRestart();
 ### Config
 
 ```
+# $
 verdaccio-server show
 ```
-edit config.yaml
-
+config.yaml
 ```
 ...
 uplinks:
@@ -65,12 +63,14 @@ listen: 0.0.0.0:4873
 ### Client
 
 ```
+# $
 npm install -g nrm
 nrm add local http://localhost:4873/
 nrm use local
 ```
 
 ```
+# $
 npm publish
 ```
 
