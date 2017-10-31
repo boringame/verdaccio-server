@@ -18,8 +18,28 @@ verdaccio-server
 verdaccio-server start
 verdaccio-server stop
 verdaccio-server list
-verdaccio-server stopall
+verdaccio-server stop-all
 verdaccio-server show
+verdaccio-server service-install
+verdaccio-server service-uninstall
+verdaccio-server service-start
+verdaccio-server service-stop
+verdaccio-server service-restart
+```
+
+```
+import * as verdaccioServer from "verdaccio-server";
+verdaccioServer.start();
+verdaccioServer.stop();
+verdaccioServer.list();
+verdaccioServer.stopAll();
+verdaccioServer.show();
+verdaccioServer.serviceInstall();
+verdaccioServer.serviceUninstall();
+verdaccioServer.serviceStart();
+verdaccioServer.serviceStop();
+verdaccioServer.serviceRestart();
+verdaccioServer.cli();
 ```
 
 ### Config

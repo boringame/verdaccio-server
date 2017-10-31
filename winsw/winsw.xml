@@ -1,0 +1,7 @@
+<service>
+	<id>verdaccio-server</id>
+	<name>verdaccio-server</name>
+	<description>verdaccio-server</description>
+	<executable>node</executable>
+	<arguments>../verdaccio-cli.js</arguments>
+</service>

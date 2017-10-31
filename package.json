@@ -1,14 +1,23 @@
 {
   "name": "verdaccio-server",
-  "version": "1.0.14",
+  "version": "1.0.18",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "stop": "node stop",
-    "stopall": "node stopall"
+    "start": "node cli start",
+    "stop": "node cli stop",
+    "stop-all": "node stop-all",
+    "list": "node cli list",
+    "show": "node cli show",
+    "service-install": "node cli service-install",
+    "service-uninstall": "node cli service-uninstall",
+    "service-start": "node cli service-start",
+    "service-stop": "node cli service-stop",
+    "service-restart": "node cli service-restart",
+    "service-status": "node cli service-status"
   },
   "bin": {
-    "verdaccio-server": "bin"
+    "verdaccio-server": "cli"
   },
   "keywords": [],
   "author": "",
@@ -17,6 +26,7 @@
     "forever": "^0.15.3",
     "shelljs": "^0.7.8",
     "verdaccio": "^2.6.1",
+    "winsw": "^0.0.1",
     "yargs": "^10.0.3"
   },
   "devDependencies": {

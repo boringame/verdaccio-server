@@ -1,3 +1,3 @@
-declare module "verdaccio/src/lib/cli"{
-    
+declare module "verdaccio/src/lib/cli" {
+
 }

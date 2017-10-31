@@ -1,0 +1,12 @@
+2017-11-01 00:05:07 - Starting node ../verdaccio-cli.js
+2017-11-01 00:05:07 - Started 2716
+2017-11-01 00:05:10 - Stopping verdaccio-server
+2017-11-01 00:05:10 - ProcessKill 2716
+2017-11-01 00:05:10 - Found child process: 14572 Name: conhost.exe
+2017-11-01 00:05:10 - Stopping process 14572
+2017-11-01 00:05:10 - Send SIGINT 14572
+2017-11-01 00:05:10 - SIGINT to 14572 failed - Killing as fallback
+2017-11-01 00:05:10 - Stopping process 2716
+2017-11-01 00:05:10 - Send SIGINT 2716
+2017-11-01 00:05:10 - SIGINT to 2716 failed - Killing as fallback
+2017-11-01 00:05:10 - Finished verdaccio-server
