@@ -1,7 +1,7 @@
 {
   "name": "verdaccio-server",
-  "version": "1.0.18",
-  "description": "",
+  "version": "1.0.19",
+  "description": "local npm registry proxy server",
   "main": "index.js",
   "scripts": {
     "start": "node cli start",
@@ -19,8 +19,19 @@
   "bin": {
     "verdaccio-server": "cli"
   },
-  "keywords": [],
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/boringame/verdaccio-server"
+  },
+  "keywords": [
+    "verdaccio",
+    "sinopia",
+    "npm",
+    "nodejs",
+    "typescript",
+    "javascript"
+  ],
+  "author": "boringame@qq.com",
   "license": "ISC",
   "dependencies": {
     "forever": "^0.15.3",
