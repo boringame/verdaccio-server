@@ -1,6 +1,6 @@
 # verdaccio-server
 
-verdaccio server
+local npm registry proxy server
 
 ## Install
 
