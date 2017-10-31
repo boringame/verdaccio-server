@@ -15,15 +15,13 @@ verdaccio-server
 ```
 
 ```
+# $
 verdaccio-server start
 verdaccio-server stop
 verdaccio-server list
 verdaccio-server stop-all
 verdaccio-server show
-```
-
-```
-# only windows
+# windows
 verdaccio-server service-install
 verdaccio-server service-uninstall
 verdaccio-server service-start
@@ -32,6 +30,7 @@ verdaccio-server service-restart
 ```
 
 ```
+// js
 import * as verdaccioServer from "verdaccio-server";
 verdaccioServer.start();
 verdaccioServer.stop();
@@ -39,10 +38,7 @@ verdaccioServer.list();
 verdaccioServer.stopAll();
 verdaccioServer.show();
 verdaccioServer.cli();
-```
-
-```
-// only windows
+// windows
 verdaccioServer.serviceInstall();
 verdaccioServer.serviceUninstall();
 verdaccioServer.serviceStart();
