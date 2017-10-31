@@ -20,6 +20,10 @@ verdaccio-server stop
 verdaccio-server list
 verdaccio-server stop-all
 verdaccio-server show
+```
+
+```
+# only windows
 verdaccio-server service-install
 verdaccio-server service-uninstall
 verdaccio-server service-start
@@ -34,12 +38,16 @@ verdaccioServer.stop();
 verdaccioServer.list();
 verdaccioServer.stopAll();
 verdaccioServer.show();
+verdaccioServer.cli();
+```
+
+```
+// only windows
 verdaccioServer.serviceInstall();
 verdaccioServer.serviceUninstall();
 verdaccioServer.serviceStart();
 verdaccioServer.serviceStop();
 verdaccioServer.serviceRestart();
-verdaccioServer.cli();
 ```
 
 ### Config
