@@ -19,7 +19,7 @@ verdaccio-server stop
 verdaccio-server list
 verdaccio-server stop-all
 verdaccio-server show
-# windows
+# windows .net2
 verdaccio-server service-install
 verdaccio-server service-uninstall
 verdaccio-server service-start
@@ -36,7 +36,7 @@ verdaccioServer.list();
 verdaccioServer.stopAll();
 verdaccioServer.show();
 verdaccioServer.cli();
-// windows
+// windows .net2
 verdaccioServer.serviceInstall();
 verdaccioServer.serviceUninstall();
 verdaccioServer.serviceStart();
