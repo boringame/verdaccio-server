@@ -1,6 +1,6 @@
 {
   "name": "verdaccio-server",
-  "version": "1.0.23",
+  "version": "1.0.24",
   "description": "local npm registry proxy server",
   "main": "index.js",
   "scripts": {
@@ -21,7 +21,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/boringame/verdaccio-server"
+    "url": "https://github.com/boringame/verdaccio-server.git"
   },
   "keywords": [
     "verdaccio",
