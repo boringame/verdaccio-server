@@ -69,6 +69,7 @@ nrm add local http://localhost:4873/
 nrm use local
 ```
 
+package.json
 ```
 # $
 npm publish
