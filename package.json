@@ -1,6 +1,6 @@
 {
   "name": "verdaccio-server",
-  "version": "1.0.24",
+  "version": "1.0.25",
   "description": "local npm registry proxy server",
   "main": "index.js",
   "scripts": {
@@ -36,7 +36,7 @@
   "dependencies": {
     "forever": "^0.15.3",
     "shelljs": "^0.7.8",
-    "verdaccio": "^2.6.1",
+    "verdaccio": "^3.7.1",
     "winsw": "^0.0.1",
     "yargs": "^10.0.3"
   },
